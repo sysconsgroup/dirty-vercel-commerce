@@ -8,3 +8,5 @@
 | `components/cart/modal.tsx`        | Too much code for a component. Split code in multiple files                                 |
 | `components/generic-data-view.tsx` | Possible re-rendering performance issue. Use the useCallback react hook                     |
 | `components/timer.tsx`             | - missing state dependency in useEffect hook<br>- missing return callback to clear interval |
+| `lib/invoice.ts`                   | synonymous that refers to the same context                                                  |
+| `components/hero-banner.tsx`       | Not follows the rule of the format of translation key: must be uppercase                    |
